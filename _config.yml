@@ -1,0 +1,48 @@
+# Permalinks
+permalink:        /post/:title.html
+
+# Setup
+url:              //myanbin.github.io
+img_url:          //infp.github.io/images
+
+# Set to '' in case of hosting on `https://<your-github-name>.github.io`
+baseurl:          ''
+
+title:            'ver notes'
+
+# Markdown enabled, however don't use more than one paragraph (enforced by `>`)
+description:      >
+  
+
+
+# Google Analytics tracking ID
+# analytics:        'UA-32028925-2'
+
+# Fallback image and color if not overwritten for tag or post
+image:            /public/images/mountains.jpg
+color:            '#dc322f'
+
+author:
+  name:           'ver'
+  # email:          ma.yanbin@qq.com
+  # github:         myanbin
+  # linkedin:       myanbin
+  # weibo:          yianbin
+  # facebook:       myanbin
+  # photo:          /public/images/cat.jpg
+
+
+  # Markdown enabled, can use multiple paragraphs (enabled by `|`)
+  about:          |
+    文章来自网络。
+
+
+compress_html:
+  clippings:      all
+  comments:       ["<!--", "-->"]
+  endings:        all
+  startings:      [html, head, body]
+
+sass:
+  sass_dir:       /public/css
+  style:          compressed
